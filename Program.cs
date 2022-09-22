@@ -5,20 +5,21 @@ namespace SimpleCalculatorCS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Selamat Datang Di Kalkulator Simple Perhitungan");
+            Console.WriteLine("Selamat Datang Di Kalkulator Simple Perhitungan 2 Angka");
             Console.WriteLine("Pilih Operasi Perhitungan dengan Input Nomor Dibawah");
             Console.WriteLine("Ketik 1 > Penjumlahan");
             Console.WriteLine("Ketik 2 > Pengurangan");
             Console.WriteLine("Ketik 3 > Perkalian");
             Console.WriteLine("Ketik 4 > Pembagian");
 
-            Console.WriteLine("Ketik Operasi Yang Diinginkan : ");
-            int Nomor = Convert.ToInt32(Console.ReadLine());
-
-            Console.WriteLine("Ketik Operasi Yang Diinginkan : ");
+            double Nomor = 0;
+            
             bool InputAngka = true;
             while (InputAngka)
             {
+                Console.WriteLine("Ketik Operasi Yang Diinginkan : ");
+                Nomor = Convert.ToInt32(Console.ReadLine());
+
                 if (Nomor == 1)
                 {
                     Console.WriteLine("Operasi > Penjumlahan");
@@ -41,42 +42,67 @@ namespace SimpleCalculatorCS
                 }
                 else
                 {
-                    Console.WriteLine("Inputan SALAH, Masukkan Inputan Yang BENAR!!");
+                    Console.WriteLine("Inputan SALAH, Masukkan Inputan Yang BENAR Angka 1-4 !!");
                     continue;
                 }
             }
 
             Console.WriteLine("Masukkan Angka Pertama : ");
-            int Angka1 = Convert.ToInt32(Console.ReadLine());
+            double Angka1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Masukkan Angka Kedua : ");
-            int Angka2 = Convert.ToInt32(Console.ReadLine());
+            double Angka2 = Convert.ToDouble(Console.ReadLine());
 
-            int hasil = 0;
+            double Hasil = 0;
             switch (Nomor)
             {
                 case 1:
-                {
-                    break;
-                }
+                    {
+                        Hasil = Penjumlahan(Angka1, Angka2);
+                        break;
+                    }
                 case 2:
-                {
-                    break;
-                }
+                    {
+                        Hasil = Pengurangan(Angka1, Angka2);
+                        break;
+                    }
                 case 3:
-                {
-                    break;
-                }
+                    {
+                        Hasil = Perkalian(Angka1, Angka2);
+                        break;
+                    }
                 case 4:
-                {
-                    break;
-                }
-                default:
-                {
-                    break;
-                }
+                    {
+                        Hasil = Pembagian(Angka1, Angka2);
+                        break;
+                    }
             }
 
-            Console.WriteLine("");
+            Console.WriteLine("Hasilnya Adalah : {0}", Hasil);
+    
+        }
+
+        public static double Penjumlahan(double Angka1, double Angka2)
+        {
+            double Hasil = Angka1 + Angka2;
+            return Hasil;
+        }
+
+        public static double Pengurangan(double Angka1, double Angka2)
+        {
+            double Hasil = Angka1 - Angka2;
+            return Hasil;
+        }
+
+        public static double Perkalian(double Angka1, double Angka2)
+        {
+            double Hasil = Angka1 * Angka2;
+            return Hasil;
+        }
+
+        public static double Pembagian(double Angka1, double Angka2)
+        {
+            double Hasil = Angka1 / Angka2;
+            return Hasil;
         }
     }
 }
