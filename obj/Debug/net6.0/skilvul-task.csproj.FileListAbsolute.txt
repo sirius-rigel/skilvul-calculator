@@ -1,0 +1,15 @@
+C:\Users\Dimas\Documents\GitHub\skilvul-task\bin\Debug\net6.0\skilvul-task.exe
+C:\Users\Dimas\Documents\GitHub\skilvul-task\bin\Debug\net6.0\skilvul-task.deps.json
+C:\Users\Dimas\Documents\GitHub\skilvul-task\bin\Debug\net6.0\skilvul-task.runtimeconfig.json
+C:\Users\Dimas\Documents\GitHub\skilvul-task\bin\Debug\net6.0\skilvul-task.dll
+C:\Users\Dimas\Documents\GitHub\skilvul-task\bin\Debug\net6.0\skilvul-task.pdb
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.csproj.AssemblyReference.cache
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.AssemblyInfoInputs.cache
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.AssemblyInfo.cs
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.csproj.CoreCompileInputs.cache
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.dll
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\refint\skilvul-task.dll
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.pdb
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\skilvul-task.genruntimeconfig.cache
+C:\Users\Dimas\Documents\GitHub\skilvul-task\obj\Debug\net6.0\ref\skilvul-task.dll

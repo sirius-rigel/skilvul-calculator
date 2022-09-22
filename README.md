@@ -1,2 +1,2 @@
 # Skilvul Task Repository
- Repository Yang Berisi Tugas-Tugas Dari Skilvul
+ Repository yang berisi tugas-tugas dari skilvul
