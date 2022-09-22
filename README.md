@@ -1,2 +1,2 @@
 # Skilvul Task Repository
- Repository yang berisi tugas-tugas dari skilvul
+ Repository yang berisi tugas skilvul membuat kalkulator
